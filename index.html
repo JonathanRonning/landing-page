@@ -7,15 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Webpage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+    
 </head>
 <body>
     <div class="header">
         <div>Header Logo</div>
         <div class="header-links">
-            <div>header link one</div>
-            <div>header link two</div>
-            <div>header link three</div>
+            <div><a href="#">header link one</a></div>
+            <div><a href="#">header link one</a></div>
+            <div><a href="#">header link one</a></div>
         </div>
     </div>
     <div class="top">
@@ -31,15 +35,29 @@
     <div class="body-one">
         <h1>Some random information</h1>
         <div class="body-one-cards">
-            <div class="card"><img src="https://pngimg.com/uploads/square/square_PNG24.png" alt="img">this is some subtext under an illustration or image</div> <!--add images here? I don't really know how to do this part but should be easy to look at past html for examples.-->
-            <div class="card"><img src="https://pngimg.com/uploads/square/square_PNG24.png" alt="img">this is some subtext under an illustration or image</div>
-            <div class="card"><img src="https://pngimg.com/uploads/square/square_PNG24.png" alt="img">this is some subtext under an illustration or image</div>
-            <div class="card"><img src="https://pngimg.com/uploads/square/square_PNG24.png" alt="img">this is some subtext under an illustration or image</div>
+            <div class="card-box">
+                <div class="card"></div>
+                <div>this is some subtext under an illustration or image</div>
+            </div>
+            <div class="card-box">
+                <div class="card"></div>
+                <div>this is some subtext under an illustration or image</div>
+            </div>
+            <div class="card-box">
+                <div class="card"></div>
+                <div>this is some subtext under an illustration or image</div>
+            </div>
+            <div class="card-box">
+                <div class="card"></div>
+                <div>this is some subtext under an illustration or image</div>
+            </div>
         </div>
     </div>
     <div class="body-two">
-        <div>This is an inspiring quote or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
-        <div> - Thor, God of Thunder</div>
+        <div class="body-two-text">
+            <div>This is an inspiring quote or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
+            <h1> - Thor, God of Thunder</h1>
+        </div>
     </div>
     <div class="bottom">
         <div class="bottom-container">
@@ -53,7 +71,7 @@
         </div>
     </div>
     <div class="footer">
-        <div>Copyright C Jonathan Ronning 2022</div>
+        <div>Copyright - Jonathan Ronning 2022</div>
     </div>
 </body>
 </html>
