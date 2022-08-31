@@ -5,6 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .header {
@@ -19,7 +20,6 @@ body {
     padding-top: 16px;
     padding-left: 200px;
     padding-right: 200px;
-    border-radius: 6px;
 }
 
 .header-links {
@@ -72,6 +72,8 @@ body {
     border-radius: 6px;
     height: 35px;
     border: none;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .top-right {
@@ -167,15 +169,37 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
     width: 1300px;
     height: 200px;
+    border-radius: 10px;
+    gap: 200px;
     
 }
 
 .bottom-left {
     display: flex;
     flex-direction: column;
+    margin-bottom: 28px;
+}
+
+.bottom-left h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.bottom-left div {
+    color: #E5E7EB;
+}
+
+.bottom-right button {
+    border-radius: 6px;
+    border: 2px solid #E5E7EB;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 35px;
+    width: 100px;
+    font-size: 18px;
 }
 
 .footer {
